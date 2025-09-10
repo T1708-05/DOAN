@@ -1,0 +1,18 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "full_name": "Admin",
+      "email": "admin@shop.local",
+      "password_hash": "admin123",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "full_name": "Demo User",
+      "email": "user@shop.local",
+      "password_hash": "user123",
+      "role": "USER"
+    }
+  ]
+}
