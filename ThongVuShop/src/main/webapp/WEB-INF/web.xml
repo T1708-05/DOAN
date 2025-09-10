@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="6.0">
+
+  <display-name>VVT Computer Shop</display-name>
+
+  <resource-ref>
+    <description>ShopDB</description>
+    <res-ref-name>jdbc/ShopDB</res-ref-name>
+    <res-type>javax.sql.DataSource</res-type>
+    <res-auth>Container</res-auth>
+  </resource-ref>
+
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+
+  <!-- Filters -->
+  <filter>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>com.vvt.shop.filter.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>CSRFProtectionFilter</filter-name>
+    <filter-class>com.vvt.shop.filter.CSRFProtectionFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>CSRFProtectionFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>AuthFilter</filter-name>
+    <filter-class>com.vvt.shop.filter.AuthFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AuthFilter</filter-name>
+    <url-pattern>/checkout</url-pattern>
+    <url-pattern>/order/*</url-pattern>
+  </filter-mapping>
+
+  <filter>
+    <filter-name>AdminFilter</filter-name>
+    <filter-class>com.vvt.shop.filter.AdminFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>AdminFilter</filter-name>
+    <url-pattern>/admin/*</url-pattern>
+  </filter-mapping>
+
+  <session-config>
+    <session-timeout>30</session-timeout>
+  </session-config>
+</web-app>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/vvt-computer-shop">
+  <Resource auth="Container" driverClassName="com.mysql.cj.jdbc.Driver" maxIdle="10" maxTotal="50" maxWaitMillis="10000" name="jdbc/ShopDB" password="your_password" type="javax.sql.DataSource" url="jdbc:mysql://localhost:3306/vvt_shop?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC" username="root"/>
+</Context>
