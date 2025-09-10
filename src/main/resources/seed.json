@@ -1,0 +1,236 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "CPU",
+      "slug": "cpu"
+    },
+    {
+      "id": 2,
+      "name": "Mainboard",
+      "slug": "mainboard"
+    },
+    {
+      "id": 3,
+      "name": "RAM",
+      "slug": "ram"
+    },
+    {
+      "id": 4,
+      "name": "SSD",
+      "slug": "ssd"
+    },
+    {
+      "id": 5,
+      "name": "GPU",
+      "slug": "gpu"
+    },
+    {
+      "id": 6,
+      "name": "PSU",
+      "slug": "psu"
+    },
+    {
+      "id": 7,
+      "name": "Case",
+      "slug": "case"
+    },
+    {
+      "id": 8,
+      "name": "Cooler",
+      "slug": "cooler"
+    },
+    {
+      "id": 9,
+      "name": "Monitor",
+      "slug": "monitor"
+    },
+    {
+      "id": 10,
+      "name": "Peripheral",
+      "slug": "peripheral"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "Intel Core i5-12400F",
+      "slug": "intel-core-i5-12400f",
+      "description": "CPU 6C/12T, 4.4GHz.",
+      "price": 3890000.0,
+      "stock": 25,
+      "image_url": "assets/img/intel-core-i5-12400f.png"
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "AMD Ryzen 5 5600",
+      "slug": "amd-ryzen-5-5600",
+      "description": "CPU 6C/12T Zen3.",
+      "price": 2990000.0,
+      "stock": 30,
+      "image_url": "assets/img/amd-ryzen-5-5600.png"
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "name": "Intel Core i7-13700K",
+      "slug": "intel-core-i7-13700k",
+      "description": "CPU 16C/24T, OC.",
+      "price": 9990000.0,
+      "stock": 15,
+      "image_url": "assets/img/intel-core-i7-13700k.png"
+    },
+    {
+      "id": 4,
+      "category_id": 2,
+      "name": "ASUS TUF B660M-PLUS",
+      "slug": "asus-tuf-b660m-plus",
+      "description": "mATX Intel Gen12/13.",
+      "price": 3190000.0,
+      "stock": 20,
+      "image_url": "assets/img/asus-tuf-b660m-plus.png"
+    },
+    {
+      "id": 5,
+      "category_id": 2,
+      "name": "MSI B550 Tomahawk",
+      "slug": "msi-b550-tomahawk",
+      "description": "ATX AMD Ryzen.",
+      "price": 3590000.0,
+      "stock": 18,
+      "image_url": "assets/img/msi-b550-tomahawk.png"
+    },
+    {
+      "id": 6,
+      "category_id": 3,
+      "name": "Corsair Vengeance 16GB DDR5-5600",
+      "slug": "corsair-vengeance-16gb-ddr5-5600",
+      "description": "Kit 16GB 5600MHz.",
+      "price": 1690000.0,
+      "stock": 50,
+      "image_url": "assets/img/corsair-vengeance-16gb-ddr5-5600.png"
+    },
+    {
+      "id": 7,
+      "category_id": 3,
+      "name": "G.Skill Trident Z5 32GB DDR5-6000",
+      "slug": "gskill-tridentz5-32gb-ddr5-6000",
+      "description": "Kit 32GB 6000MHz.",
+      "price": 2390000.0,
+      "stock": 35,
+      "image_url": "assets/img/gskill-tridentz5-32gb-ddr5-6000.png"
+    },
+    {
+      "id": 8,
+      "category_id": 4,
+      "name": "Samsung 980 PRO 1TB",
+      "slug": "samsung-980-pro-1tb",
+      "description": "NVMe PCIe 4.0.",
+      "price": 2490000.0,
+      "stock": 40,
+      "image_url": "assets/img/samsung-980-pro-1tb.png"
+    },
+    {
+      "id": 9,
+      "category_id": 4,
+      "name": "WD Black SN850X 1TB",
+      "slug": "wd-black-sn850x-1tb",
+      "description": "Gaming PCIe 4.0.",
+      "price": 2690000.0,
+      "stock": 32,
+      "image_url": "assets/img/wd-black-sn850x-1tb.png"
+    },
+    {
+      "id": 10,
+      "category_id": 5,
+      "name": "RTX 4060 Ti 8GB",
+      "slug": "nvidia-rtx-4060-ti-8gb",
+      "description": "DLSS 3, 1080p/1440p.",
+      "price": 8990000.0,
+      "stock": 14,
+      "image_url": "assets/img/nvidia-rtx-4060-ti-8gb.png"
+    },
+    {
+      "id": 11,
+      "category_id": 5,
+      "name": "RTX 4070 SUPER 12GB",
+      "slug": "nvidia-rtx-4070-super-12gb",
+      "description": "1440p/4K nhẹ.",
+      "price": 14990000.0,
+      "stock": 10,
+      "image_url": "assets/img/nvidia-rtx-4070-super-12gb.png"
+    },
+    {
+      "id": 12,
+      "category_id": 6,
+      "name": "Corsair RM750x 750W",
+      "slug": "corsair-rm750x-750w",
+      "description": "80+ Gold.",
+      "price": 2390000.0,
+      "stock": 22,
+      "image_url": "assets/img/corsair-rm750x-750w.png"
+    },
+    {
+      "id": 13,
+      "category_id": 7,
+      "name": "Lian Li Lancool 215",
+      "slug": "lianli-lancool-215",
+      "description": "Airflow tốt.",
+      "price": 1490000.0,
+      "stock": 28,
+      "image_url": "assets/img/lianli-lancool-215.png"
+    },
+    {
+      "id": 14,
+      "category_id": 8,
+      "name": "DeepCool AK400",
+      "slug": "deepcool-ak400",
+      "description": "Tản khí êm.",
+      "price": 790000.0,
+      "stock": 45,
+      "image_url": "assets/img/deepcool-ak400.png"
+    },
+    {
+      "id": 15,
+      "category_id": 9,
+      "name": "LG 27GN850-B 27\" 144Hz",
+      "slug": "lg-27gn850-b",
+      "description": "Nano IPS 1440p.",
+      "price": 7990000.0,
+      "stock": 12,
+      "image_url": "assets/img/lg-27gn850-b.png"
+    },
+    {
+      "id": 16,
+      "category_id": 10,
+      "name": "Keychron K2 V2",
+      "slug": "keychron-k2-v2",
+      "description": "Phím 75% BT/USB-C.",
+      "price": 1890000.0,
+      "stock": 33,
+      "image_url": "assets/img/keychron-k2-v2.png"
+    },
+    {
+      "id": 17,
+      "category_id": 10,
+      "name": "Logitech G502 HERO",
+      "slug": "logitech-g502-hero",
+      "description": "HERO 25K.",
+      "price": 990000.0,
+      "stock": 40,
+      "image_url": "assets/img/logitech-g502-hero.png"
+    },
+    {
+      "id": 18,
+      "category_id": 9,
+      "name": "AOC 24G2 24\" 144Hz",
+      "slug": "aoc-24g2-144hz",
+      "description": "IPS 1080p 144Hz.",
+      "price": 3790000.0,
+      "stock": 20,
+      "image_url": "assets/img/aoc-24g2-144hz.png"
+    }
+  ]
+}
