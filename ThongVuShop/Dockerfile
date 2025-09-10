@@ -16,7 +16,7 @@ RUN sed -ri 's/port="8005"/port="-1"/' /usr/local/tomcat/conf/server.xml \
  && rm -rf /usr/local/tomcat/webapps/*
 
 # Deploy WAR thành ROOT.war để chạy ở "/"
-COPY --from=build /app/dist/*.war /usr/local/tomcat/webapps/ROOT.war
+COPY --from=build /app/target/*.war /usr/local/tomcat/webapps/ROOT.war
 
 # (Tuỳ chọn) hạn chế RAM cho plan Free của Render
 ENV CATALINA_OPTS="-Xms128m -Xmx384m"
@@ -24,3 +24,4 @@ ENV PORT=8080
 EXPOSE 8080
 
 CMD ["catalina.sh", "run"]
+
